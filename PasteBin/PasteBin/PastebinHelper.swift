@@ -49,7 +49,7 @@ class PastebinHelper: UIViewController {
             // URL Acceptable string
             let encoded_title = api_paste_name.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
 
-            var request = URLRequest(url: URL(string: "http://pastebin.com/api/api_post.php")!)
+            var request = URLRequest(url: URL(string: "https://pastebin.com/api/api_post.php")!)
             request.httpMethod = "POST"
 
             // convoluted but necessary for their post api
