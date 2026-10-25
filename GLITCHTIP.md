@@ -14,6 +14,6 @@ Before distribution, verify the exact archived DSN and symbols, update any hoste
 
 ## Legacy release build compatibility
 
-With Xcode 27, pass `__DIAGNOSE_INVALID_DEPLOYMENT_TARGET_AS_ERROR=NO` to retain the existing deployment target while allowing Xcode to report its unsupported-target diagnostic as a warning. Inspect the archived minimum OS before export. This does not change the deployment target.
+The app and its CocoaPods targets require iOS 13. Apple rejected the earlier iOS 11 archive with error 90068, and the owner authorized the minimum-version increase. With Xcode 27, pass `__DIAGNOSE_INVALID_DEPLOYMENT_TARGET_AS_ERROR=NO` to allow its iOS 13 compatibility diagnostic as a warning. Inspect the archived minimum OS before export.
 
 The vendored AFNetworking reachability source uses public `netinet/in.h`, which provides the IPv6 definitions; its redundant private `netinet6/in6.h` import was removed for current SDK module validation.
