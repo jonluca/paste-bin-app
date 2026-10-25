@@ -17,7 +17,10 @@
 		0849C3751E18151E00031FF1 /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = 0849C3741E18151E00031FF1 /* code.png */; };
 		08CBE51D1E23FB8700C91B02 /* TextSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBE51C1E23FB8700C91B02 /* TextSelectionViewController.swift */; };
 		08EB1C571E14293A00311E23 /* PasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EB1C561E14293A00311E23 /* PasteView.swift */; };
+		0ED64D8B830476B6E274F705 /* Sentry-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 538DC1999EC60ABF1FB9C4B6 /* Sentry-LICENSE.txt */; };
 		77E07E471E6C85C08E23F3C8 /* Pods_PasteBin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E72A0797AC270D9771EB4A8 /* Pods_PasteBin.framework */; };
+		849287C4D09EC2516124D6F8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 75BECB3975DDE15A337628CC /* PrivacyInfo.xcprivacy */; };
+		8C9769908DB017EFD4C76021 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 8D88951B0B1C6489A22D4EBE /* Sentry */; };
 		AF1D5D712074AA1B00C397A8 /* SyntaxLibraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D5D702074AA1A00C397A8 /* SyntaxLibraries.swift */; };
 		AF1D5D7320752FC300C397A8 /* PastebinHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D5D7220752FC300C397A8 /* PastebinHelper.swift */; };
 		AF44201620BE7F4B0065776D /* MasterOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44201520BE7F4B0065776D /* MasterOptionsViewController.swift */; };
@@ -25,6 +28,7 @@
 		AFEDDBD320B7E0BA00F1BE89 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDDBD220B7E0BA00F1BE89 /* HistoryViewController.swift */; };
 		AFEDDBD520B9485600F1BE89 /* NewOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEDDBD420B9485600F1BE89 /* NewOptionsViewController.swift */; };
 		CC81D8DDB92B74FC44610C8D /* SyntaxSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81D0900A18D20A8C8ADF3E /* SyntaxSelectViewController.swift */; };
+		F8CCFA08D2330FA77E6A7D13 /* ErrorReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D33FA74244F14492B5AE77 /* ErrorReporting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,8 @@
 		08EB1C561E14293A00311E23 /* PasteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteView.swift; sourceTree = "<group>"; };
 		4E72A0797AC270D9771EB4A8 /* Pods_PasteBin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasteBin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5380EFA9631E62426C24166D /* Pods-PasteBin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasteBin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasteBin/Pods-PasteBin.debug.xcconfig"; sourceTree = "<group>"; };
+		538DC1999EC60ABF1FB9C4B6 /* Sentry-LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "Sentry-LICENSE.txt"; path = "PasteBin/Sentry-LICENSE.txt"; sourceTree = "<group>"; };
+		75BECB3975DDE15A337628CC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = PasteBin/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		7D4F8CD64B66790F0F833899 /* Pods-PasteBin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasteBin.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasteBin/Pods-PasteBin.release.xcconfig"; sourceTree = "<group>"; };
 		AF1D5D702074AA1A00C397A8 /* SyntaxLibraries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxLibraries.swift; sourceTree = "<group>"; };
 		AF1D5D7220752FC300C397A8 /* PastebinHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastebinHelper.swift; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 		AF4C67952063A196003EF09C /* SyntaxSelectViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SyntaxSelectViewController.storyboard; sourceTree = "<group>"; };
 		AFEDDBD220B7E0BA00F1BE89 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		AFEDDBD420B9485600F1BE89 /* NewOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOptionsViewController.swift; sourceTree = "<group>"; };
+		C0D33FA74244F14492B5AE77 /* ErrorReporting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorReporting.swift; path = PasteBin/ErrorReporting.swift; sourceTree = "<group>"; };
 		CC81D0900A18D20A8C8ADF3E /* SyntaxSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxSelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E07E471E6C85C08E23F3C8 /* Pods_PasteBin.framework in Frameworks */,
+				8C9769908DB017EFD4C76021 /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +80,9 @@
 				8D706E845AEFDA62CB0345C7 /* Pods */,
 				84A1158263166637D30E6234 /* Frameworks */,
 				0845F85B205EF7A1000C9BF3 /* PasteBin.app */,
+				C0D33FA74244F14492B5AE77 /* ErrorReporting.swift */,
+				75BECB3975DDE15A337628CC /* PrivacyInfo.xcprivacy */,
+				538DC1999EC60ABF1FB9C4B6 /* Sentry-LICENSE.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +161,9 @@
 			dependencies = (
 			);
 			name = PasteBin;
+			packageProductDependencies = (
+				8D88951B0B1C6489A22D4EBE /* Sentry */,
+			);
 			productName = PasteBin;
 			productReference = 0845F85B205EF7A1000C9BF3 /* PasteBin.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +196,9 @@
 				Base,
 			);
 			mainGroup = 08453B7D1E1426C4001CAACB;
+			packageReferences = (
+				340934042A1417767AE8528E /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
+			);
 			productRefGroup = 08453B7D1E1426C4001CAACB;
 			projectDirPath = "";
 			projectRoot = "";
@@ -202,6 +219,8 @@
 				08453B911E1426C5001CAACB /* Assets.xcassets in Resources */,
 				08453B8F1E1426C5001CAACB /* Main.storyboard in Resources */,
 				080880471E2841D800D22074 /* Default-568h@2x.png in Resources */,
+				849287C4D09EC2516124D6F8 /* PrivacyInfo.xcprivacy in Resources */,
+				0ED64D8B830476B6E274F705 /* Sentry-LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +285,7 @@
 				08CBE51D1E23FB8700C91B02 /* TextSelectionViewController.swift in Sources */,
 				CC81D8DDB92B74FC44610C8D /* SyntaxSelectViewController.swift in Sources */,
 				AF1D5D7320752FC300C397A8 /* PastebinHelper.swift in Sources */,
+				F8CCFA08D2330FA77E6A7D13 /* ErrorReporting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = F35YQQ5672;
 				INFOPLIST_FILE = PasteBin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -458,6 +479,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		340934042A1417767AE8528E /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa.git";
+			requirement = {
+				kind = exactVersion;
+				version = 8.58.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D88951B0B1C6489A22D4EBE /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 340934042A1417767AE8528E /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 08453B7E1E1426C4001CAACB /* Project object */;
 }
